@@ -317,8 +317,8 @@ footer p {
     }
     /* HEADER */
     .main-nav {
-        font-size: 5px;
-        margin-top: 10px;
+        font-size: 13px;
+        margin-top: -6px;
         background-color: rgba(49, 48, 47, 0.313);
     }
     .main-nav li {
@@ -355,7 +355,7 @@ footer p {
         margin-top: 60px;
     }
     .post-info {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     .post-date {
         width: 70px;
@@ -376,15 +376,22 @@ footer p {
     .post-title,
     .post-cat {
         margin-left: 80px;
+        margin-top: 1.15rem;
     }
 
     /* MENU */
     .menu-content {
         margin-top: 20%;
     }
+    .menu-content .page-title {
+        margin-top: 8rem;
+    }
     #menu {
         min-height: 34rem;
     }
+    .main-nav a {
+        font-size: 13px;
+    }    
     /* CONTACT */
     #contact .page-title {
         margin-top: 40px;
@@ -392,7 +399,12 @@ footer p {
     #contact {
         min-height: 42vh;
     }
-
+    .main-nav a {
+        font-size: 13px;
+    }
+    .button {
+        margin-bottom: 20px;
+    }
     /* フォーム */
     input[type="text"],
     input[type="email"],
