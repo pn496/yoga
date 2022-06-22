@@ -37,20 +37,20 @@ img {
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
-    border-bottom: 2px rgb(153, 54, 192) solid;
+    border-bottom: 2px rgb(115, 213, 240) solid;
     font-weight: normal;
 }
 
 /* ボタン */
 .button {
     font-size: 1.375rem;
-    background: rgb(159, 123, 212);
+    background: rgb(131, 199, 240);
     color: #fff;
     border-radius: 5px;
     padding: 18px 32px;
 }
 .button:hover {
-    background: #b27dea;
+    background: #7dcdea;
 }
 
 /* iframe */
@@ -83,22 +83,23 @@ iframe {
     color: rgb(241, 236, 236);
 }
 .main-nav a:hover {
-    color: rgb(181, 113, 240);
+    color: rgb(115, 214, 250);
 }
 
-/* NEWS
+/* TOPS
 ------------------------------- */
 #news {
-    background-image: url(../images/news-bg.jpg);
-    height: 370px;
-    width: 600px;
+    background-image: url(../images/top-bg.jpg);
+    height: 120vh;
+    width: 40vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
 }
 #news .page-title {
     text-align: center;
-    margin-top: -5rem;
+    margin-top: -7rem;
+    color: rgb(60, 191, 248);
 }
 .news-contents {
     display: flex;
@@ -148,6 +149,7 @@ article img {
 }
 article p {
     margin-bottom: 1rem;
+    margin-left: 8rem;
 }
 
 /* サイドバー */
@@ -159,24 +161,24 @@ aside {
     list-style: none;
 }
 .sub-menu li {
-    border-bottom: 1px #ddd solid;
+    border-bottom: 1px rgb(255, 0, 0) solid;
 }
 .sub-menu a {
-    color: rgb(193, 126, 220);
+    color: aqua;
     padding: 10px;
     display: block;
 }
 .sub-menu a:hover {
-    color: rgb(207, 192, 55);
+    color: rgb(218, 53, 28);
 }
 aside p {
     padding: 12px 10px;
 }
 
-/* MENU
+/* Concept
 ------------------------------- */
 #menu {
-    background-image: url(../images/menu-bg.webp);
+    background-image: url(../images/wall.jpg);
     min-height: 89vh;
 }
 #menu .main-nav {
@@ -213,7 +215,10 @@ aside p {
 ------------------------------- */
 #contact {
     background-image: url(../images/contact-bg.jpg);
-    min-height: 100vh;
+    width: fit-content;
+    height: 106vh;
+    margin-left: auto;
+    margin-right: auto;
     color: #ddd;
 }
 #contact .main-nav a {
@@ -232,7 +237,7 @@ input[type="text"],
 input[type="email"],
 textarea {
     background: rgba(255,255,255,.5);
-    border: 1px #fff solid;
+    border: 1px rgb(255, 255, 255) solid;
     border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
@@ -274,7 +279,7 @@ input[type="submit"] {
 /* SNS */
 #sns {
     background: #FAF7F0;
-    padding: 4% 0;
+    padding: 10% 0;
 }
 #sns .wrapper {
     display: flex;
@@ -283,14 +288,21 @@ input[type="submit"] {
 #sns .sub-title {
     margin-bottom: 30px;
 }
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+
 .sns-box {
     width: 30%;
 }
-
+#sns .sub-title .instagram-media {
+    width: 560px;
+    height: 315px;
+}
 /* フッター
 ------------------------------- */
 footer {
-    background: rgba(144, 110, 158, 0.792);
+    background: rgba(73, 151, 172, 0.792);
     text-align: center;
     padding: 26px 0;
 }
