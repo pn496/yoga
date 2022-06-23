@@ -65,14 +65,13 @@ iframe {
     justify-content: space-between;
 }
 .logo {
-    width: 210px;
+    min-width: 210px;
     margin-top: 14px;
 }
 .main-nav {
-    display: flex;
     font-size: 1.25rem;
     text-transform: uppercase;
-    margin-top: 34px;
+    margin-top: 70px;
     list-style: none;
     padding-right: 2rem;
 }
@@ -106,7 +105,9 @@ iframe {
     justify-content: space-between;
     margin-bottom: 50px;
 }
-
+#news logo {
+    width: 150px;
+}
 /* 記事部分 */
 article {
     width: 74%;
@@ -181,6 +182,9 @@ aside p {
     background-image: url(../images/wall.jpg);
     min-height: 89vh;
 }
+#menu .logo {
+    width: 150px;
+}
 #menu .main-nav {
     background-color: rgba(64, 57, 50, 0.385);
 }
@@ -220,6 +224,9 @@ aside p {
     margin-left: auto;
     margin-right: auto;
     color: #ddd;
+}
+#contact .logo {
+    width: 150px;
 }
 #contact .main-nav a {
     color: #ddd;
@@ -279,7 +286,7 @@ input[type="submit"] {
 /* SNS */
 #sns {
     background: #FAF7F0;
-    padding: 10% 0;
+    padding: 12% 0;
 }
 #sns .wrapper {
     display: flex;
@@ -315,7 +322,7 @@ footer p {
 ------------------------------- */
 @media (max-width: 600px) {
     .main-nav {
-        padding-right: 0;
+        padding: 5px;
     }
     .page-title {
         font-size: 2rem;
@@ -325,7 +332,8 @@ footer p {
         align-items: center;
     }
     .logo {
-        width: 35vw;
+        width: 100px;
+        min-width: 150px;
     }
     /* HEADER */
     .main-nav {
@@ -363,6 +371,10 @@ footer p {
     aside {
         width: 100%;
     }
+    article p {
+        margin-bottom: 1px;
+        margin-left: auto;
+    }
     aside {
         margin-top: 60px;
     }
@@ -387,19 +399,28 @@ footer p {
     }
     .post-title,
     .post-cat {
-        margin-left: 80px;
-        margin-top: 1.15rem;
+        margin-left: auto;
     }
 
     /* MENU */
     .menu-content {
         margin-top: 20%;
     }
+    .menu-content p {
+        font-size: 0.7rem;
+    }
     .menu-content .page-title {
         margin-top: 8rem;
     }
     #menu {
         min-height: 34rem;
+    }
+    #menu .logo {
+        width: 150px;
+        margin-right: 40vw;
+    }
+    #menu .main-nav {
+        margin-right: 40vw;
     }
     .main-nav a {
         font-size: 13px;
@@ -410,6 +431,9 @@ footer p {
     }
     #contact {
         min-height: 42vh;
+    }
+    #contact {
+        height: 122vh;
     }
     .main-nav a {
         font-size: 13px;
