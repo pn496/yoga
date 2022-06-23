@@ -345,7 +345,7 @@ footer p {
     }
     .logo {
         width: 100px;
-        min-width: 150px;
+        min-width: 110px;
     }
     /* HEADER */
     .main-nav {
@@ -365,6 +365,7 @@ footer p {
     /* NEWS */
     #news {
         width: 94vw;
+        height: 140vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -419,7 +420,7 @@ footer p {
         margin-top: 20%;
     }
     .menu-content p {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .menu-content .page-title {
         margin-top: 8rem;
@@ -428,7 +429,7 @@ footer p {
         min-height: 34rem;
     }
     #menu .logo {
-        width: 150px;
+        width: 120px;
         margin-right: 40vw;
     }
     #menu .main-nav {
@@ -445,11 +446,11 @@ footer p {
         min-height: 42vh;
     }
     #contact {
-        height: 158vh;
+        height: 166vh;
         width: 90%;
     }
     .main-nav a {
-        font-size: 13px;
+        font-size: 20px;
     }
     .button {
         margin-bottom: 20px;
