@@ -479,14 +479,14 @@ footer p {
     }
     #menu {
         min-height: 34rem;
+        margin-top: 8rem;
     }
     #menu .logo {
         width: 120px;
-        margin-right: 40vw;
     }
-    #menu .main-nav {
-        margin-right: 40vw;
-    }
+    .main-nav {
+        margin-top: -12rem;
+    }    
     .main-nav a {
         font-size: 13px;
     }
@@ -504,8 +504,11 @@ footer p {
         min-height: 42vh;
     }
     #contact {
-        height: 166vh;
+        height: 67vh;
         width: 90%;
+    }
+    #contact .main-nav {
+        margin-top: 0;
     }
     .main-nav a {
         font-size: 20px;
