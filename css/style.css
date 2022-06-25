@@ -9,6 +9,16 @@ body{
     font-family: sans-serif;
     line-height: 1.7;
     color: rgba(39, 39, 39, 0.819);
+    background-color: rgb(234,246,251,1);
+}
+.elegant-font p {
+    font-family: serif;
+    font-size: 1.2rem;
+}
+.natural-font p {
+    font-family: TsukuARdGothic-Regular;
+    background-color: rgb(251,222,229,1);
+    padding: 3px 5px;
 }
 a {
     text-decoration: none;
@@ -37,7 +47,7 @@ img {
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
-    border-bottom: 2px rgb(115, 213, 240) solid;
+    border-bottom: 3px rgb(251,222,229,1) solid;
     font-weight: normal;
 }
 
@@ -65,15 +75,16 @@ iframe {
     justify-content: space-between;
 }
 .logo {
-    min-width: 210px;
+    min-width: 150px;
     margin-top: 14px;
 }
 .main-nav {
     font-size: 1.25rem;
     text-transform: uppercase;
-    margin-top: 70px;
+    margin-top: 40px;
     list-style: none;
     padding-right: 2rem;
+    background-color: rgba(178, 222, 224,0.5);
 }
 .main-nav li {
     margin-left: 36px;
@@ -82,18 +93,19 @@ iframe {
     color: rgb(241, 236, 236);
 }
 .main-nav a:hover {
-    color: rgb(115, 214, 250);
+    color: rgb(247, 156, 177);
+    background-color: rgba(78, 72, 72, 0.852);
 }
 
 /* TOPS
 ------------------------------- */
 #news {
     background-image: url(../images/top-bg.jpg);
-    height: 120vh;
-    width: 40vw;
+    height: 65vh;
+    width: 31vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #news .page-title {
     text-align: center;
@@ -110,12 +122,12 @@ iframe {
 }
 /* 記事部分 */
 article {
-    width: 74%;
+    width: 64%;
 }
 .post-info {
     position: relative;
     padding-top: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .post-date {
     background: rgb(0, 0, 0);
@@ -133,7 +145,7 @@ article {
     border-top: 1px rgba(255,255,255,.5) solid;
     padding-top: 6px;
     display: block;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 .post-title {
@@ -143,19 +155,20 @@ article {
 }
 .post-title,
 .post-cat {
-    margin-left: 120px;
+    margin-left: 100px;
 }
 article img {
     margin-bottom: 20px;
 }
 article p {
     margin-bottom: 1rem;
-    margin-left: 8rem;
+    margin-left: 4rem;
 }
 
 /* サイドバー */
 aside {
-    width: 22%;
+    width: 36%;
+    margin-left: 2rem;
 }
 .sub-menu {
     margin-bottom: 60px;
@@ -176,7 +189,7 @@ aside p {
     padding: 12px 10px;
 }
 
-/* Concept
+/* Lesson
 ------------------------------- */
 #menu {
     background-image: url(../images/wall.jpg);
@@ -194,7 +207,7 @@ aside p {
 }
 .menu-content .page-title {
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 24rem;
     color: #ddd;
     background-color: rgba(48, 50, 51, 0.447);
     width: max-content;
@@ -205,7 +218,6 @@ aside p {
     color: #ddd;
     background-color: rgba(48, 50, 51, 0.447);
 }
-
 .grid {
   display: grid;
   gap: 26px;
@@ -213,24 +225,48 @@ aside p {
   margin-top: 6%;
   margin-bottom: 50px;
   align-items: center;
+  background-color: rgba(52, 52, 52, 0.522);
+  padding: 3rem 3rem 2rem 3rem;
+}
+.grid img {
+    width: 22vw;
+    height: 33vh;
+    object-fit: cover;
+}
+.grid img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+.grid p {
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
 }
 
 /* CONTACT
 ------------------------------- */
 #contact {
-    background-image: url(../images/contact-bg.jpg);
-    width: fit-content;
-    height: 106vh;
+    background-image: url(../images/menu7.png);
+    height: 150vh;
     margin-left: auto;
     margin-right: auto;
     color: #ddd;
+    margin: 0 4%;
 }
 #contact .logo {
     width: 150px;
 }
+#contact .main-nav {
+    background-color: rgba(67, 64, 64, 0.743);
+}
 #contact .main-nav a {
     color: #ddd;
 }
+#contact .main-nav a:hover {
+    color: rgb(247, 156, 177);
+}
+
 /* フォーム */
 form div {
     margin-bottom: 14px;
@@ -286,19 +322,15 @@ input[type="submit"] {
 /* SNS */
 #sns {
     background: #FAF7F0;
-    padding: 12% 0;
+    padding: 3% 0;
 }
 #sns .wrapper {
     display: flex;
     justify-content: space-between;
 }
 #sns .sub-title {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
-#sns .sub-title {
-    margin-bottom: 30px;
-}
-
 .sns-box {
     width: 30%;
 }
@@ -309,12 +341,12 @@ input[type="submit"] {
 /* フッター
 ------------------------------- */
 footer {
-    background: rgba(73, 151, 172, 0.792);
+    background: rgba(178, 222, 224,1);
     text-align: center;
     padding: 26px 0;
 }
 footer p {
-    color: #fff;
+    color: #000;
     font-size: 0.875rem;
 }
 
@@ -326,7 +358,22 @@ footer p {
         height: 112vh;
     }
     #contact {
-        height: 58vh;
+        height: 160vh;
+    }
+    .grid img {
+        width: 100%;
+    }
+    #location .wrapper,
+    #sns .wrapper {
+        flex-direction: column;
+    }
+    .location-info,
+    .location-map,
+    .sns-box {
+        width: 100%;
+    }
+    .sns-box {
+        margin-bottom: 30px;
     }
 }
 
@@ -340,7 +387,6 @@ footer p {
         font-size: 2rem;
     }
     .page-header {
-        flex-direction: column;
         align-items: center;
     }
     .logo {
@@ -362,10 +408,10 @@ footer p {
         margin-top: 20%;
     }
 
-    /* NEWS */
+    /* TOP */
     #news {
-        width: 94vw;
-        height: 140vh;
+        width: 90vw;
+        height: 112vh;
         margin-left: auto;
         margin-right: auto;
     }
@@ -388,11 +434,16 @@ footer p {
         margin-bottom: 1px;
         margin-left: auto;
     }
+    .elegant-font p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
     aside {
         margin-top: 60px;
+        margin-left: 0;
     }
     .post-info {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .post-date {
         width: 70px;
@@ -412,10 +463,11 @@ footer p {
     }
     .post-title,
     .post-cat {
+        font-size: 1.2rem;
         margin-left: auto;
     }
 
-    /* MENU */
+    /* LESSON */
     .menu-content {
         margin-top: 20%;
     }
@@ -437,7 +489,13 @@ footer p {
     }
     .main-nav a {
         font-size: 13px;
-    }    
+    }
+    .grid img {
+        width: 100%;
+    }
+    .grid p {
+        margin-bottom: 2rem;
+    }
     /* CONTACT */
     #contact .page-title {
         margin-top: 40px;
