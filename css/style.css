@@ -155,7 +155,9 @@ article {
 }
 .post-title,
 .post-cat {
-    margin-left: 100px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 article img {
     margin-bottom: 20px;
@@ -421,12 +423,12 @@ footer p {
         width: 100%;
     }
     article p {
-        margin-bottom: 1px;
+        margin-bottom: 3rem;
         margin-left: auto;
     }
     .elegant-font p {
         font-size: 1.1rem;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
     }
     aside {
         margin-top: 60px;
