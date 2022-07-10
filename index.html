@@ -51,11 +51,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
   <!-- Safari -->
   <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-
+  <!-- jquery read -->
+  <script src="js/jquery.js"></script>
+  <!-- jquery lightbox -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.11.3/jquery.min.js"></script>
+  <!-- etc -->
   <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/fuwaimg.css" rel="stylesheet">
-  <script src="js/jquery.js"></script>
+  <link href="css/lightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -142,12 +146,12 @@
         </ul> -->
         <h3>Various ways to enjoy</h3>
         <ul class="illust sum-sm">
-          <li><a href="img/etc1-1200x700.png" class="fuwaimg" data-fcaption="Candle"><img src="img/etc1-150x150.png" alt="Candle"></a></li>
-          <li><a href="img/etc2-1200x700.jpeg" class="fuwaimg" data-fcaption="Healing"><img src="img/etc2-150x150.jpeg" alt="Skyscraper"></a></li>
-          <li><a href="img/etc3-1200x700.png" class="fuwaimg" data-fcaption="On the sea"><img src="img/etc3-150x150.png" alt="On the sea"></a></li>
-          <li><a href="img/etc4-1200x700.png" class="fuwaimg" data-fcaption="Outside"><img src="img/etc4-150x150.jpg" alt="Outside"></a></li>
-          <li><a href="img/etc5-1200x700.png" class="fuwaimg" data-fcaption="Plants"><img src="img/etc5-150x150.jpeg" alt="Plants"></a></li>
-          <li ><a href="img/etc6-1200x700.jpg" id="Profile" class="fuwaimg" data-fcaption="Forest"><img src="img/etc6-150x150.jpg" alt="forest"></a></li>
+          <li><a href="img/etc1-1200x700.png" class="fuwaimg" data-fcaption="Candle" data-lightbox="detail" data-title="Candle"><img src="img/etc1-150x150.png" alt="Candle"></a></li>
+          <li><a href="img/etc2-1200x700.jpeg" class="fuwaimg" data-fcaption="Healing" data-lightbox="detail" data-title="Healing"><img src="img/etc2-150x150.jpeg" alt="Skyscraper"></a></li>
+          <li><a href="img/etc3-1200x700.png" class="fuwaimg" data-fcaption="On the sea" data-lightbox="detail" data-title="On the sea"><img src="img/etc3-150x150.png" alt="On the sea"></a></li>
+          <li><a href="img/etc4-1200x700.png" class="fuwaimg" data-fcaption="Outside" data-lightbox="detail" data-title="Outside"><img src="img/etc4-150x150.jpg" alt="Outside"></a></li>
+          <li><a href="img/etc5-1200x700.png" class="fuwaimg" data-fcaption="Plants" data-lightbox="detail" data-title="Plants"><img src="img/etc5-150x150.jpeg" alt="Plants"></a></li>
+          <li><a href="img/etc6-1200x700.jpg" id="Profile" class="fuwaimg" data-fcaption="Forest" data-lightbox="detail" data-title="Forest"><img src="img/etc6-150x150.jpg" alt="forest"></a></li>
         </ul>
         <!-- <h2>Relaxation</h2>
         <p>※ Please expect and wait</p> -->
@@ -213,7 +217,7 @@
   <!-- 上に戻るボタンここから -->
   <a href="#" id="totop" class="totop-hidden"></a>
   <!-- 上に戻るボタンここまで -->
-
+  <script src="js/lightbox.js"></script>
   <script src="js/common.js"></script>
   <script src="js/fuwaimg.js"></script>
 </body>
