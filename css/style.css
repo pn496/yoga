@@ -187,7 +187,9 @@ body {
 .only-pc {
   display: none;
 }
-
+.update dd {
+  margin-bottom: 10px;
+}
 @media (min-width: 768px) {
   .only-pc {
     display: inline-block;
@@ -718,22 +720,22 @@ section.indent p {
     /* ※011 - PCから見た場合のメインビジュアル画像の高さ↓ */
     height: 400px;
   }
+
   #main-visual:before {
     display: none;
   }
+  #main-visual .container {
+    padding: 0;
+    margin: 0 auto;
+    height: 100%;
+  }
+  #main-visual img {
+    width: 100%;
+    height: none;
+    -o-object-fit: cover;
+      object-fit: cover;
+  }
 }
-#main-visual .container {
-  padding: 0;
-  margin: 0 auto;
-  height: 100%;
-}
-#main-visual img {
-  width: 100%;
-  height: none;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 /* -----------------------------------
 フッター部分
 ----------------------------------- */
